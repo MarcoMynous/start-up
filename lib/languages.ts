@@ -1,0 +1,58 @@
+import { LanguageOption } from "./types";
+
+export const ALL_LANGUAGES: LanguageOption[] = [
+  {
+    id: "python",
+    name: "PYTHON",
+    version: "Python 3.12",
+    compiler: "CPython",
+    tag: "FAST_JIT",
+    tagType: "success",
+    baseMem: "14MB",
+  },
+  {
+    id: "rust",
+    name: "RUST",
+    version: "Rust 1.76",
+    compiler: "LLVM 17",
+    tag: "OPT-LEVEL 3",
+    tagType: "neutral",
+    baseMem: "2.1MB",
+  },
+  {
+    id: "cpp",
+    name: "C++",
+    version: "C++ 20",
+    compiler: "Clang 16",
+    tag: "-O2 BIN",
+    tagType: "neutral",
+    baseMem: "1.8MB",
+  },
+  {
+    id: "js",
+    name: "JAVASCRIPT",
+    version: "Node.js 20",
+    compiler: "V8 ENGINE",
+    tag: "ESNEXT",
+    tagType: "neutral",
+    baseMem: "32MB",
+  },
+  {
+    id: "go",
+    name: "GO",
+    version: "Go 1.22",
+    compiler: "NATIVE GC",
+    tag: "PGO READY",
+    tagType: "neutral",
+    baseMem: "4.2MB",
+  },
+  {
+    id: "java",
+    name: "JAVA",
+    version: "OpenJDK 21",
+    compiler: "HOTSPOT VM",
+    tag: "LTS ARCH",
+    tagType: "neutral",
+    baseMem: "48MB",
+  },
+];
